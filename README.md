@@ -1,4 +1,4 @@
-# 🪖 HelmetSense - Helmet Detection System
+# ⛑ HelmetSense - Helmet Detection System
 
 ## 📌 Project Description
 HelmetSense is a system designed to detect whether a person is wearing a helmet using image processing / machine learning techniques.
@@ -11,6 +11,22 @@ HelmetSense is a system designed to detect whether a person is wearing a helmet 
 - Transfer learning using VGG16
 - Data augmentation for better performance
 - Performance evaluation using multiple metrics
+
+---
+
+## 📸 Screenshots
+
+### 🖼️ Input Image
+![Input](images/helmetsense_input_image.png)
+
+### 🧠 Prediction Output
+![Output](images/helmetsense_prediction_output.png)
+
+### 📊 Confusion Matrix
+![Confusion Matrix](images/helmetsense_confusion_matrix.png)
+
+### 📈 Training Performance
+![Training](images/helmetsense_training_graph.png)
 
 ---
 
