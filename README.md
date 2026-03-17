@@ -6,25 +6,34 @@ HelmetSense is a system designed to detect whether a person is wearing a helmet 
 ---
 
 ## ✨ Features
-- Helmet detection  
-- Image processing  
-- Automated classification  
-- Visual output
+- Image-based helmet detection
+- CNN model for classification
+- Transfer learning using VGG16
+- Data augmentation for better performance
+- Performance evaluation using multiple metrics
 
 ---
 
 ## 🛠️ Tech Stack
-- Python  
-- [Add: OpenCV / ML library if used]  
-- [Add: Model used if any]
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- OpenCV (cv2)
+- TensorFlow
+- Keras (Sequential + Functional API)
+- Scikit-learn
 
 ---
 
 ## 📊 Project Workflow
-1. Data input (image/video)  
-2. Preprocessing  
-3. Detection / classification  
-4. Output display
+1. Load and preprocess image dataset
+2. Apply data augmentation using ImageDataGenerator
+3. Build CNN model with VGG16
+4. Train model using training data
+5. Evaluate model using classification metrics
+6. Predict helmet detection on images
 
 ---
 
